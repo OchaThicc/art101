@@ -19,7 +19,7 @@
   flex-direction: column;           
 }
   
-p {
+#para1 {
   background-color: lightcoral;
   border: solid 1px;
   padding: 10px;
@@ -28,3 +28,10 @@ p {
   color: whitesmoke;
 }
 
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #1d21e4;
+  color: white;
+}
