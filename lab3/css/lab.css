@@ -7,3 +7,22 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+
+.Selfie {
+  margin: 1px;
+  max-width: 600px;
+}
+
+img {
+  border-width: 5px;        /* Width of the border */
+  border-style: solid;       /* Style of the border */
+  border-color:grey;        /* Color of the border */
+}
+
+#Caption {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: -1px;
+}
