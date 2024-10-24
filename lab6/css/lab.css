@@ -7,3 +7,16 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.Car {
+  float: right;
+  transform: translateY(-850px);
+  height: 400px;
+  width: 460px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+p {
+  font-size: larger;
+}
