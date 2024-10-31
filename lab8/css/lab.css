@@ -1,0 +1,40 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+.Car {
+  float: right;
+  transform: translateY(-850px);
+  height: 400px;
+  width: 460px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+p {
+  font-size: larger;
+}
+
+body {
+    background-color: rgb(151, 36, 36);
+  }
+
+
+#output1 {
+  font-size: 20px;
+}
+
+#output2 {
+  font-size: 20px;
+}
+
+#output3 {
+  font-size: 20px;
+}
+
+.script {
+  border: solid 1px grey;
+}
