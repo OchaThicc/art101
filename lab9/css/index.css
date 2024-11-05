@@ -1,0 +1,23 @@
+p {
+    font-size: 25px;
+}
+
+
+.special {
+  background-color: rgb(76, 171, 235);
+  border: dashed 5px rgb(182, 179, 179);
+  color: rgb(246, 88, 88);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+#output{
+  font-size: 25px;
+}
+
+#challenge{
+  
+}
