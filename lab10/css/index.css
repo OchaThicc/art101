@@ -1,0 +1,48 @@
+p {
+    font-size: 25px;
+}
+
+
+h2 {
+  font-size: 40px;
+}
+
+.text p {
+  align-self: flex-end;
+  display: inline-block;
+  text-align: left;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: rgb(98, 166, 238);
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8em;
+}
+
+.textbox {
+  display: flex;                
+  flex-direction: column;
+  justify-content: space-between; 
+  padding: 50px;
+  margin-bottom: 20px;
+  border: solid 2px #090808;
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin: auto;
+}
+
+.text2 p{
+  align-self: flex-start;
+  display: inline-block;
+  text-align: right;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: rgb(29, 178, 81);
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8em;
+}
