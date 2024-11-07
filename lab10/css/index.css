@@ -8,9 +8,9 @@ h2 {
 }
 
 .text p {
-  align-self: flex-end;
   display: inline-block;
-  text-align: left;
+  float: left;
+  clear: both;
   max-width: 60%;
   margin: 3px;
   padding: 5px 10px;
@@ -22,9 +22,7 @@ h2 {
 }
 
 .textbox {
-  display: flex;                
-  flex-direction: column;
-  justify-content: space-between; 
+  height: 500px;
   padding: 50px;
   margin-bottom: 20px;
   border: solid 2px #090808;
@@ -34,9 +32,9 @@ h2 {
 }
 
 .text2 p{
-  align-self: flex-start;
+  float: right;
+  clear: both;
   display: inline-block;
-  text-align: right;
   max-width: 60%;
   margin: 3px;
   padding: 5px 10px;
@@ -45,4 +43,8 @@ h2 {
   color: rgb(255, 255, 255);
   font-family: 'Times New Roman', Times, serif;
   font-size: 0.8em;
+}
+
+#output{
+  width: 100%;
 }

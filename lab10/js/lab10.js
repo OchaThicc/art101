@@ -8,13 +8,13 @@
 */
 
 function generateRandomText() {
-   const text = "Hello everynyan, How are you, Fine thank you, Oh my god!, nihao, You have a cats tongue";
+   const text = "Hello everynyan, How are you, Fine thank you, Oh my god!, nihao, You have a cats tongue, Freaky ahh, Big yellow water bottle, yo mama";
    const min = 3;
    const max = 100;
    const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
-   // Get a random starting index to slice the Lorem Ipsum text
+   // Get a random starting index to slice 
    const randStart = Math.floor(Math.random() * (text.length - randLen + 1));
-   // Generate the random Lorem Ipsum-like text
+   // Generate the random text
    return text.slice(randStart, randStart + randLen);
  }
 
