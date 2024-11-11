@@ -1,0 +1,23 @@
+#output p {
+    font-size: 30px;
+}
+
+
+h2 {
+  font-size: 40px;
+}
+
+
+#textSection {
+  height: 100px;
+  padding: 50px;
+  margin-bottom: 50px;
+  border: solid 2px #090808;
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin: auto;
+}
+
+p{
+  font-size: 20px;
+}
