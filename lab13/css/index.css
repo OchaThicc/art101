@@ -1,0 +1,35 @@
+#output p {
+    font-size: 30px;
+}
+
+
+h2 {
+  font-size: 40px;
+}
+
+
+.bordered {
+  border: black solid 2px;
+  padding: 30px;
+}
+
+p{
+  font-size: 20px;
+}
+
+/*chatgpt helped generate the 4 columns idea*/
+#output {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  font-family: Arial, sans-serif;
+}
+
+#output div {
+  flex: 1 1 calc(25% - 10px); 
+  padding: 5px;
+  border: 1px solid #ccc; 
+  text-align: center;
+  box-sizing: border-box;
+  background-color: white;
+}
