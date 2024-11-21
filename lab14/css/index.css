@@ -1,0 +1,18 @@
+#output p {
+    font-size: 30px;
+}
+
+
+h2 {
+  font-size: 40px;
+}
+
+
+.bordered {
+  border: black solid 2px;
+  padding: 30px;
+}
+
+p{
+  font-size: 20px;
+}
