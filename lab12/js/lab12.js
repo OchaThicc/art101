@@ -44,11 +44,9 @@ function sortinghat(str){
 
 
 //button listener
-var submissionbutton = document.getElementById("button");
-submissionbutton.addEventListener('click', function(){
-   var name = document.getElementById('input').value;
+$("button").click(function(){
+   var name = $("#input").val();
    var house = sortinghat(name);
-   designation = "<p>The sorting hat has turned you into a " + house + "</p>";
-   document.getElementById('output').innerHTML= designation;
+   $("#output").html("<p>"+"The sorting hat has turned you into a " + house + "</p>");
 })
 
