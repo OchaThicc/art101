@@ -39,4 +39,3 @@ function fetchYesNoAPI() {
     });
 }
 
-c
