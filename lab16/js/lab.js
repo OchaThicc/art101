@@ -10,8 +10,13 @@
 function comic() {
     $.ajax({
         // The URL for the request (from the api docs)
-        url: "https://cors-anywhere.herokuapp.com/https://xkcd.com/info.0.json",
-        mode: "cors",
+        url: "https://xkcd.com/info.0.json",
+
+        headers: {
+            "Access-Control-Allow-Headers": "*"
+            },
+        
+            crossDomain: true,
 
         // Whether this is a POST or GET request
         type: "GET",
