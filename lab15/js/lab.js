@@ -39,3 +39,6 @@ function fetchYesNoAPI() {
     });
 }
 
+$("#activate").click(function(){
+    fetchYesNoAPI();
+});

@@ -11,7 +11,7 @@ function comic() {
     $.ajax({
         // The URL for the request (from the api docs)
         url: "https://cors-anywhere.herokuapp.com/https://xkcd.com/info.0.json",
-        
+        mode: "cors",
 
         // Whether this is a POST or GET request
         type: "GET",
